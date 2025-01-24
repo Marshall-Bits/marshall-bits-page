@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="icon" href="./assets/icon-light.svg" type="image/svg+xml" />
+  </head>
+  <body class="bg-stone-950 text-indigo-50">
+    <header
+      id="header"
+      class="sticky top-0 bg-indigo-950 shadow-xl shadow-black/25"
+    >
+      <nav
+        class="mx-auto flex h-16 items-center justify-between sm:max-w-screen-sm sm:px-0 lg:max-w-screen-lg"
+      >
+        <button id="menu-button" class="absolute left-2 sm:hidden">
+          <svg
+            width="40px"
+            height="40px"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H20M4 12H20M4 18H20"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <img
+          id="main-title"
+          class="mx-auto max-w-56 cursor-pointer sm:mx-0 sm:max-w-72 lg:w-1/4"
+          src="./assets/row-light.png"
+        />
+        <ul
+          id="nav-menu"
+          class="absolute top-0 hidden h-dvh w-dvw flex-col justify-around bg-indigo-950 text-center text-2xl font-bold sm:static sm:flex sm:h-auto sm:w-1/2 sm:flex-row sm:justify-between sm:bg-transparent sm:text-left sm:text-sm"
+        >
+          <li>
+            <a href="#courses">Cursos</a>
+          </li>
+          <li>
+            <a href="#projects">Proyectos</a>
+          </li>
+          <li>
+            <a href="#reviews">Opiniones</a>
+          </li>
+          <li class="sm:hidden">
+            <button>
+              <svg
+                width="50px"
+                height="50px"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="Menu / Close_LG">
+                  <path
+                    id="Vector"
+                    d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <article
+        class="mx-auto flex max-w-72 flex-col items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
+      >
+        <img
+          class="mx-auto max-w-72"
+          src="./assets/col-light.png"
+          alt="logo Marshall bits"
+        />
+        <div class="mx-auto my-4 flex w-72 flex-col gap-10">
+          <p class="h-3 font-mono">
+            <span>\</span>
+            <span id="typed-text">Aprende las bases, desarrolla tu futuro</span
+            ><span id="bar">|</span>
+          </p>
+          <ul class="flex gap-10">
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/marcel-bosch-developer/"
+              >
+                <img src="./assets/linkedIn-logo.svg" alt="logo de linkedin" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/Marshall-Bits">
+                <img src="./assets/github-logo.svg" alt="logo de github" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="bg-indigo-950 py-16" id="courses">
+      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
+        <h3 class="text-4xl font-bold">Cursos</h3>
+
+        <ul class="flex flex-wrap gap-10 py-10">
+          <template data-template="course-card">
+            <li class="flex flex-col items-center justify-center">
+              <div class="w-72 rounded-md bg-stone-950 lg:w-96">
+                <img
+                  src=""
+                  alt=""
+                  class="h-50 w-full rounded-t-md object-cover"
+                />
+                <div class="flex flex-col gap-2 p-4">
+                  <h4 class="text-2xl font-bold"></h4>
+                  <span class="time w-16 rounded-sm bg-slate-800/50 px-2 py-1"
+                    >⌚
+                  </span>
+                  <p class="pb-2"></p>
+                  <a href="" class="w-32" target="_blank">
+                    <button class="btn"></button>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </template>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-16" id="projects">
+      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
+        <h3 class="text-4xl font-bold">Proyectos</h3>
+        <ul
+          class="flex flex-wrap justify-between gap-20 py-10 text-indigo-950 sm:gap-10 lg:gap-20"
+        >
+          <template data-template="project-card">
+            <li class="h-96 w-72 overflow-hidden rounded-md bg-indigo-50">
+              <img
+                class="h-1/3 w-full object-cover"
+                src="./assets/project-4.png"
+                alt="captura de pantalla de proyecto 4"
+              />
+              <div class="flex h-2/3 flex-col justify-between p-4">
+                <h4 class="text-lg font-bold"></h4>
+                <p></p>
+                <p>
+                  <span class="font-bold">Tech:</span>
+                </p>
+                <a href="" target="_blank">
+                  <button class="btn flex justify-center gap-4">
+                    <span>Visitar</span>
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 32 32"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16 0C7.16 0 0 7.16 0 16C0 23.08 4.58 29.06 10.94 31.18C11.74 31.32 12.04 30.84 12.04 30.42C12.04 30.04 12.02 28.78 12.02 27.44C8 28.18 6.96 26.46 6.64 25.56C6.46 25.1 5.68 23.68 5 23.3C4.44 23 3.64 22.26 4.98 22.24C6.24 22.22 7.14 23.4 7.44 23.88C8.88 26.3 11.18 25.62 12.1 25.2C12.24 24.16 12.66 23.46 13.12 23.06C9.56 22.66 5.84 21.28 5.84 15.16C5.84 13.42 6.46 11.98 7.48 10.86C7.32 10.46 6.76 8.82 7.64 6.62C7.64 6.62 8.98 6.2 12.04 8.26C13.32 7.9 14.68 7.72 16.04 7.72C17.4 7.72 18.76 7.9 20.04 8.26C23.1 6.18 24.44 6.62 24.44 6.62C25.32 8.82 24.76 10.46 24.6 10.86C25.62 11.98 26.24 13.4 26.24 15.16C26.24 21.3 22.5 22.66 18.94 23.06C19.52 23.56 20.02 24.52 20.02 26.02C20.02 28.16 20 29.88 20 30.42C20 30.84 20.3 31.34 21.1 31.18C27.42 29.06 32 23.06 32 16C32 7.16 24.84 0 16 0V0Z"
+                      />
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </li>
+          </template>
+        </ul>
+      </div>
+    </section>
+
+    <section id="reviews" class="bg-indigo-950 py-16">
+      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
+        <h3 class="text-4xl font-bold">Opiniones</h3>
+        <ul>
+          <template data-template="review-card">
+            <li
+              class="mt-10 flex flex-col items-center gap-4 rounded-md bg-indigo-50 p-4 text-indigo-950 sm:flex-row"
+            >
+              <img
+                class="mx-auto size-28 rounded-full object-contain sm:mx-0"
+                src=""
+                alt=""
+              />
+              <div>
+                <blockquote class="mb-4 italic">
+                  <button class="cursor-pointer text-pink-600 hover:underline">
+                    Leer más
+                  </button>
+                </blockquote>
+                <a
+                  target="_blank"
+                  class="inline-flex items-center gap-1 hover:underline"
+                  href=""
+                >
+                  <p class="font-bold"></p>
+                  <img
+                    class="w-4"
+                    src="./assets/linkedIn-logo.svg"
+                    alt="linkedin logo"
+                  />
+                </a>
+              </div>
+            </li>
+          </template>
+        </ul>
+        <p class="text-xs mt-1">*Algunas opiniones han sido traducidas del Inglés</p>
+        <div class="flex mt-4 justify-center">
+            <button id="more-reviews" class="hover:underline">&#x2193; Ver más &#x2193;</button>
+        </div>
+      </div>
+    </section>
+
+    <div
+      id="modal"
+      class="fixed inset-0 hidden items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
+    >
+      <div
+        class="mav-w-72 h-dvh overflow-scroll rounded-lg bg-slate-50 p-8 text-indigo-950 shadow-lg sm:h-auto sm:max-w-screen-sm sm:overflow-auto lg:max-w-screen-lg"
+      >
+        <div class="flex items-center gap-4">
+          <img
+            class="mb-4 size-28 rounded-full object-contain"
+            src=""
+            alt="avatar"
+          />
+          <h5 class="text-xl font-bold"></h5>
+        </div>
+        <blockquote class="mb-4">
+       
+        </blockquote>
+
+        <button class="btn">Cerrar</button>
+      </div>
+    </div>
+
+    <script src="./scripts/navigation.js"></script>
+    <script src="./scripts/typedText.js"></script>
+    <script type="module" src="./scripts/templates.js"></script>
+  </body>
+</html>

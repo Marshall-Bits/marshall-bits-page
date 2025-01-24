@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply w-32 rounded-md border-2 border-pink-500 bg-pink-500 py-2 text-indigo-50 transition-colors duration-300 hover:bg-indigo-50 hover:text-pink-500;
+}
