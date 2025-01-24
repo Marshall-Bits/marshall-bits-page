@@ -49,6 +49,9 @@
           <li>
             <a href="#reviews">Opiniones</a>
           </li>
+          <li>
+            <a href="#about-me">Sobre mí</a>
+          </li>
           <li class="sm:hidden">
             <button>
               <svg
@@ -139,51 +142,7 @@
       </div>
     </section>
 
-    <section class="py-16" id="projects">
-      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
-        <h3 class="text-4xl font-bold">Proyectos</h3>
-        <ul
-          class="flex flex-wrap justify-between gap-20 py-10 text-indigo-950 sm:gap-10 lg:gap-20"
-        >
-          <template data-template="project-card">
-            <li class="h-96 w-72 overflow-hidden rounded-md bg-indigo-50">
-              <img
-                class="h-1/3 w-full object-cover"
-                src="./assets/project-4.png"
-                alt="captura de pantalla de proyecto 4"
-              />
-              <div class="flex h-2/3 flex-col justify-between p-4">
-                <h4 class="text-lg font-bold"></h4>
-                <p></p>
-                <p>
-                  <span class="font-bold">Tech:</span>
-                </p>
-                <a href="" target="_blank">
-                  <button class="btn flex justify-center gap-4">
-                    <span>Visitar</span>
-                    <svg
-                      width="20"
-                      height="20"
-                      viewBox="0 0 32 32"
-                      fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M16 0C7.16 0 0 7.16 0 16C0 23.08 4.58 29.06 10.94 31.18C11.74 31.32 12.04 30.84 12.04 30.42C12.04 30.04 12.02 28.78 12.02 27.44C8 28.18 6.96 26.46 6.64 25.56C6.46 25.1 5.68 23.68 5 23.3C4.44 23 3.64 22.26 4.98 22.24C6.24 22.22 7.14 23.4 7.44 23.88C8.88 26.3 11.18 25.62 12.1 25.2C12.24 24.16 12.66 23.46 13.12 23.06C9.56 22.66 5.84 21.28 5.84 15.16C5.84 13.42 6.46 11.98 7.48 10.86C7.32 10.46 6.76 8.82 7.64 6.62C7.64 6.62 8.98 6.2 12.04 8.26C13.32 7.9 14.68 7.72 16.04 7.72C17.4 7.72 18.76 7.9 20.04 8.26C23.1 6.18 24.44 6.62 24.44 6.62C25.32 8.82 24.76 10.46 24.6 10.86C25.62 11.98 26.24 13.4 26.24 15.16C26.24 21.3 22.5 22.66 18.94 23.06C19.52 23.56 20.02 24.52 20.02 26.02C20.02 28.16 20 29.88 20 30.42C20 30.84 20.3 31.34 21.1 31.18C27.42 29.06 32 23.06 32 16C32 7.16 24.84 0 16 0V0Z"
-                      />
-                    </svg>
-                  </button>
-                </a>
-              </div>
-            </li>
-          </template>
-        </ul>
-      </div>
-    </section>
-
-    <section id="reviews" class="bg-indigo-950 py-16">
+    <section id="reviews" class="py-16">
       <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
         <h3 class="text-4xl font-bold">Opiniones</h3>
         <ul>
@@ -218,9 +177,10 @@
             </li>
           </template>
         </ul>
-        <p class="text-xs mt-1">*Algunas opiniones han sido traducidas del Inglés</p>
-        <div class="flex mt-4 justify-center">
-            <button id="more-reviews" class="hover:underline">&#x2193; Ver más &#x2193;</button>
+        <div class="mt-4 flex justify-center">
+          <button id="more-reviews" class="hover:underline">
+            &#x2193; Ver más &#x2193;
+          </button>
         </div>
       </div>
     </section>
@@ -240,14 +200,63 @@
           />
           <h5 class="text-xl font-bold"></h5>
         </div>
-        <blockquote class="mb-4">
-       
-        </blockquote>
+        <blockquote class="mb-4"></blockquote>
 
         <button class="btn">Cerrar</button>
       </div>
     </div>
 
+    <section class="bg-indigo-950 py-16" id="about-me">
+      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
+        <h3 class="text-4xl font-bold">Sobre mí</h3>
+        <div class="mx-auto mt-10 flex flex-col gap-4 ">
+          <p>¡Hola! Soy Marcel,</p>
+          <h4 class="text-lg font-bold">👶 Primeros pasos</h4>
+          <p>
+            Mi primer recuerdo de usar un ordenador fue con MS-DOS cuando tenía
+            5 años. Mi padre me enseñó a usar la terminal para instalar juegos y
+            programas. ¿Recuerdas los primeros prince of persia? A partir de
+            ahí, mi curiosidad por la tecnología no ha parado de crecer.
+          </p>
+          <img
+            class="mx-auto p-3 sm:max-w-screen-sm lg:w-1/2"
+            src="./assets/prince-persia.webp"
+            alt="imagen del juego prince of persia"
+          />
+          <h4 class="text-lg font-bold">🎮 Mis primeros juegos y webs</h4>
+          <p>
+            A los 15 ya llevaba un largo recorrido de toquetear scripts de
+            juegos, veía como se creaban los mods de DOOM y me preguntaba cómo
+            se hacían, para qué servían todos esos archivos de texto o los
+            <i>.bat</i>. Empecé a estudiar html por mi cuenta y Flash, y así
+            salieron mis primeras páginas web y juegos. No te creas que hice un
+            juego de la calidad de DOOM 😅, eran más bien juegos flash de vestir
+            muñecos, hacer puzzles, point and click y cosas así. Y mis páginas
+            eran mas bien como las de homer Simpson, hasta que me llegó mi
+            primer cliente serio.
+          </p>
+          <img
+            class="mx-auto p-3 sm:max-w-screen-sm lg:w-1/2"
+            src="./assets/homers-page.gif"
+            alt="imagen de la página de homer simpson"
+          />
+
+          <h4 class="text-lg font-bold">🎓 Formación</h4>
+          <p>
+            Mi formación fue muy autodidacta hasta que decidí hacer un bootcamp
+            para actualizar mis conocimientos y aprender las tecnologías del
+            mercado. No conformado con eso hice otro bootcamp gratuito de
+            desarrollo web además de incontables cursos de Udemy. Para esa época ya estaba subiendo vídeos a YouTube mostrando lo que aprendía en desarrollo de videojuegos. También me di cuenta de lo gratificante que era enseñar y compartir conocimientos mientras colaboraba en proyectos con mis compis, así que decidí aplicar a un puesto de formador.
+          </p>
+
+          <h4 class="text-lg font-bold">🚀 Actualidad</h4>
+          <p>
+            A día de hoy ya he trabajado en decenas de proyectos como freelance y para empresas, he dado más de 4000 horas de cursos y he formado a cientos de estudiantes de forma presencial y telemática. Darme cuenta de que mis estudiantes valoran mi trabajo y viendo casos de éxito me llena de orgullo y me motiva a seguir aprendiendo y enseñando. Espero que disfrutes de mis cursos y que te ayuden también a ti a alcanzar tus metas.
+          </p>
+          <p>Te mando un abrazo y... ¡Sigamos desarrollando!</p>
+        </div>
+      </div>
+    </section>
     <script src="./scripts/navigation.js"></script>
     <script src="./scripts/typedText.js"></script>
     <script type="module" src="./scripts/templates.js"></script>
