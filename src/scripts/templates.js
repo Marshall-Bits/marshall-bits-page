@@ -1,4 +1,3 @@
-import { projects } from "./data.js";
 import { reviews } from "./reviews.js";
 import { courses } from "./courses.js";
 
@@ -113,6 +112,7 @@ courses.forEach((course) => {
   const link = card.querySelector("a");
   const button = card.querySelector("button");
   const time = card.querySelector(".time");
+  const price = card.querySelector(".price");
 
   image.src = course.img;
   image.alt = course.title;
@@ -124,6 +124,7 @@ courses.forEach((course) => {
   button.textContent = course.linkText;
 
   time.textContent += course.time;
+  price.textContent += course.price;
 
   coursesUl.appendChild(card);
 });
