@@ -1,6 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --animate-slide-in: slide-in 0.5s ease-in-out;
+  --animate-slide-out: slide-out 0.5s ease-in-out;
+
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    ,
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-out {
+    0% {
+      transform: translateX(0);
+    }
+    ,
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
 
 .btn {
   @apply w-32 rounded-md border-2 border-pink-500 bg-pink-500 py-2 text-indigo-50 transition-colors duration-300 hover:bg-indigo-50 hover:text-pink-500;

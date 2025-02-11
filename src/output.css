@@ -977,10 +977,6 @@ video {
     max-width: 18rem;
   }
 
-  .sm\:max-w-96 {
-    max-width: 24rem;
-  }
-
   .sm\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -1025,11 +1021,11 @@ video {
     width: 24rem;
   }
 
-  .lg\:max-w-screen-lg {
-    max-width: 1024px;
+  .lg\:max-w-\[30rem\] {
+    max-width: 30rem;
   }
 
-  .lg\:max-w-96 {
-    max-width: 24rem;
+  .lg\:max-w-screen-lg {
+    max-width: 1024px;
   }
 }
