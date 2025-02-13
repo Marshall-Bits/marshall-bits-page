@@ -5,7 +5,7 @@ export const courses = [
     title: "Tailwind desde cero",
     desc: "Aprende Tailwind CSS desde cero y construye interfaces modernas y responsivas.",
     img: "./assets/curso-tailwind.png",
-    link: `https://www.udemy.com/course/tailwind-desde-cero/?cuponCode=${cuponCode}`,
+    link: `https://www.udemy.com/course/tailwind-desde-cero/?referralCode=E7458FFD1BB54AA9EB3C&cuponCode=${cuponCode}`,
     linkText: "Ver en Udemy",
     price: "13€",
     time: "6h",
