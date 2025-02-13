@@ -1,34 +1,17 @@
 import { reviews } from "./reviews.js";
 import { courses } from "./courses.js";
 
-
 const templateReview = document.querySelector('[data-template="review-card"]');
 
 const reviewsUl = document.querySelector("#reviews ul");
 
 const reviewsRandom = reviews.sort(() => Math.random() - 0.5);
 
-let reviewsToShow = 3;
-const moreReviewsButton = document.querySelector("#more-reviews");
-
-moreReviewsButton.addEventListener("click", () => {
-  reviewsToShow += 3;
-
-  renderReviews();
-
-  if (reviewsToShow >= reviews.length) {
-    moreReviewsButton.textContent = "↑ Ver menos ↑";
-    moreReviewsButton.addEventListener("click", () => {
-      reviewsToShow = 3;
-      renderReviews();
-      moreReviewsButton.textContent = "↓ Ver más ↓";
-    });
-  }
-});
+renderReviews();
 
 function renderReviews() {
   reviewsUl.innerHTML = "";
-  reviewsRandom.slice(0, reviewsToShow).forEach((review) => {
+  reviewsRandom.forEach((review) => {
     const card = templateReview.content.cloneNode(true);
 
     const image = card.querySelector("img");
@@ -40,7 +23,8 @@ function renderReviews() {
     image.src = review.profileImage;
     image.alt = review.name;
     image.onerror = () => {
-      image.src = "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2";
+      image.src =
+        "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2";
     };
 
     name.textContent = review.name;
