@@ -39,6 +39,9 @@ function renderReviews() {
 
     image.src = review.profileImage;
     image.alt = review.name;
+    image.onerror = () => {
+      image.src = "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2";
+    };
 
     name.textContent = review.name;
     link.href = review.profileUrl;
