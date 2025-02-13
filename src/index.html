@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <link rel="icon" href="./assets/favico.png" type="image/svg+xml" />
+    <title>Marshall Bits - Cursos de programación online</title>
+    <meta
+      name="description"
+      content="Aprende a programar desde cero con cursos online de Marshall Bits. Desarrollo web, videojuegos y más."
+    />
+    <meta
+      name="keywords"
+      content="cursos, programación, online, desarrollo web, videojuegos, javascript, html, css"
+    />
+    <meta name="author" content="Marcel Bosch" />
+    <meta property="og:title" content="Marshall Bits - Cursos de programación online" />
+    <meta property="og:description" content="Aprende a programar desde cero con cursos online de Marshall Bits. Desarrollo web, videojuegos y más." />
+    <meta property="og:image" content="./assets/logo-2.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://marshall-bits.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Marshall Bits - Cursos de programación online" />
+    <meta name="twitter:description" content="Aprende a programar desde cero con cursos online de Marshall Bits. Desarrollo web, videojuegos y más." />
+    <meta name="twitter:image" content="./assets/logo-2.png" />
   </head>
   <body class="bg-stone-950 text-indigo-50">
     <header
@@ -77,19 +96,21 @@
 
     <section id="hero">
       <article
-        class="mx-auto flex max-w-72 flex-col items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
+        class="mx-auto flex flex-col max-w-72 items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
       >
-        <img
-          class="mx-auto max-w-72"
-          src="./assets/logo-1.png"
-          alt="logo Marshall bits"
-        />
-        <div class="mx-auto my-4 flex w-72 flex-col gap-10">
-          <p class="h-3 font-mono">
-            <span id="typed-text">Aprende las bases, desarrolla tu futuro</span
-            ><span id="bar">|</span>
-          </p>
-        </div>
+          <img
+            class="max-w-52 mx-auto sm:mx-0"
+            src="./assets/logo-1.png"
+            alt="logo Marshall bits"
+          />
+          <div class="mx-auto my-4 flex w-52 flex-col gap-10">
+            <p class="h-3 font-mono">
+              <span id="typed-text"
+                >Aprende las bases, desarrolla tu futuro</span
+              ><span id="bar">|</span>
+            </p>
+          </div>
+     
       </article>
     </section>
 
@@ -180,19 +201,19 @@
 
           <ul
             id="carousel"
-            class="hide-scrollbar h-full mt-10 items-center flex w-full overflow-x-scroll"
+            class="hide-scrollbar mt-10 flex h-full w-full items-center overflow-x-scroll"
           >
             <template class="w-full" data-template="review-card">
               <li
-                class="mr-10 flex min-w-72 h-full flex-col items-center justify-between gap-4 rounded-md bg-indigo-50 p-4 text-indigo-950 sm:min-w-full sm:flex-row sm:items-start sm:justify-start"
+                class="mr-10 flex h-full min-w-72 flex-col items-center justify-between gap-4 rounded-md bg-indigo-50 p-4 text-indigo-950 sm:min-w-full sm:flex-row sm:items-start sm:justify-start"
               >
                 <img
                   class="mx-auto size-28 rounded-full object-contain sm:mx-0"
                   src=""
                   alt=""
                 />
-                <div class="flex  flex-col justify-between sm:h-auto">
-                  <p class="stars text-2xl mb-4"></p>
+                <div class="flex flex-col justify-between sm:h-auto">
+                  <p class="stars mb-4 text-2xl"></p>
                   <blockquote class="mb-4 italic">
                     <button
                       class="cursor-pointer text-pink-500 hover:underline"
@@ -323,7 +344,10 @@
                   target="_blank"
                   href="https://www.linkedin.com/in/marcel-bosch-developer/"
                 >
-                  <img src="./assets/linkedIn-logo.svg" alt="logo de linkedin" />
+                  <img
+                    src="./assets/linkedIn-logo.svg"
+                    alt="logo de linkedin"
+                  />
                 </a>
               </li>
               <li>
@@ -350,9 +374,7 @@
           >
         </p>
 
-        <p>
-          © <span id="year"></span> Marshall Bits
-        </p>
+        <p>© <span id="year"></span> Marshall Bits</p>
       </div>
     </footer>
     <script src="./scripts/navigation.js"></script>
