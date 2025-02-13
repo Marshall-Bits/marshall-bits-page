@@ -148,17 +148,6 @@ export const reviews = [
   },
   {
     profileImage:
-      "https://media.licdn.com/dms/image/v2/D4D03AQGDJSechzPw7Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706291214980?e=2147483647&v=beta&t=ZvK5N2j-JgtccX3pXXsee--wR7GukBrl0R4DKvc4QOE",
-    name: "Eric",
-    recommendation: `
-      Marcel fue mi instructor de React durante el bootcamp de Ironhack. Su profundo conocimiento y entusiasmo por el desarrollo web son contagiosos, animándonos constantemente a alcanzar nuestro mejor rendimiento. Además de ser un desarrollador excepcional, Marcel es una persona increíble y un profesor dedicado, siempre dispuesto a ofrecer apoyo. ¡Es verdaderamente un profesional extraordinario!
-    `,
-    recommendationEnglish:
-      "Marcel was my React instructor during Ironhack's bootcamp. His profound knowledge and enthusiasm for web development are contagious, constantly encouraging us to achieve our best performance. In addition to being an exceptional developer, Marcel is an incredible person and a dedicated teacher, always ready to offer support. He is truly an extraordinary professional!",
-    profileUrl: "https://www.linkedin.com/in/ecavalcanti93",
-  },
-  {
-    profileImage:
       "https://media.licdn.com/dms/image/v2/C5603AQHsDZhWaqcXQQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1611065900740?e=1743033600&v=beta&t=JaHSF-P2UbriXwDOfNm2hHM5Pnpg4uiT_r-QDyZFo1A",
     name: "Kumar",
     recommendation: `
@@ -167,25 +156,6 @@ export const reviews = [
     recommendationEnglish:
       "I had the great pleasure of being Marcel's student while attending the web development bootcamp at Ironhack, where we learned HTML, CSS, JS, and everything in the MERN stack, from frontend to back.\n\nMarcel has been a great teacher: insightful, abundantly patient, great at explaining complex subjects in simple terms, encouraging our curiousity, and guiding us towards the correct solutions on our own terms. He knows what he teaches well and he teaches it deftly and enthusiastically.\n\nMarcel made the bootcamp learning experience a really enjoyable, positive one. I felt encouraged to try things and succeed or fail, knowing that Marcel would be available to guide me through no matter how I attempted to tackle a particular problem.\n\nOverall I had a great experience during the bootcamp, and on graduation felt energized to continue learning and equipped to look for my first job as a web developer, all thanks to Marcel.",
     profileUrl: "https://www.linkedin.com/in/kumardaryanani",
-  },
-  {
-    profileImage:
-      "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
-    name: "Maksim",
-    recommendation:
-      "Gran profe , con aptitudes extraordinarias. Talento innato de programación",
-    profileUrl: "https://www.linkedin.com/in/mgmarinov",
-  },
-  {
-    profileImage:
-      "https://media.licdn.com/dms/image/v2/D4E03AQF_nGOdIcFFXw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1701874155521?e=1743033600&v=beta&t=WuXaQqCjoI82lIkLrxMxbfIUTLU13VnOkFk1JRHVBfw",
-    name: "Gabriel",
-    recommendation: `
-      He tenido el placer de coincidir con Marcel, que fue uno de mis profesores en el bootcamp de Desarrollo Web de Ironhack en Barcelona. No puedo decir más sobre él: es un gran profesional... Es un gran profesor tanto técnicamente como a nivel humano. Para mí, es 100% recomendable.
-    `,
-    recommendationEnglish:
-      "I have had the pleasure of coinciding with Marcel, who was one of my teachers at the Ironhack Web Development Bootcamp in Barcelona. I can't say more about him than he is a great professional ... He is a great teacher both technically and on a human level. For me, he is 100% recommendable.",
-    profileUrl: "https://www.linkedin.com/in/gabrielfdez",
   },
   {
     profileImage:

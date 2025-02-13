@@ -139,7 +139,7 @@
         <div class="relative">
           <button
             id="slide-left"
-            class="cursor-pointer absolute top-1/2 -translate-y-1/2 -left-12 rounded-full bg-pink-600 p-2 text-indigo-50 shadow-md"
+            class="absolute top-1/2 -left-12 -translate-y-1/2 cursor-pointer rounded-full bg-pink-500 p-2 text-indigo-50 shadow-md"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@
           </button>
           <button
             id="slide-right"
-            class="cursor-pointer rounded-full absolute top-1/2 -translate-y-1/2 -right-12 bg-pink-600 p-2 text-indigo-50 shadow-md"
+            class="absolute top-1/2 -right-12 -translate-y-1/2 cursor-pointer rounded-full bg-pink-500 p-2 text-indigo-50 shadow-md"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -180,21 +180,22 @@
 
           <ul
             id="carousel"
-            class="hide-scrollbar mt-10 flex w-full overflow-x-scroll"
+            class="hide-scrollbar h-full mt-10 items-center flex w-full overflow-x-scroll"
           >
             <template class="w-full" data-template="review-card">
               <li
-                class="mr-10 flex min-w-72 flex-col items-center justify-between gap-4 rounded-md bg-indigo-50 p-4 text-indigo-950 sm:min-w-full sm:flex-row sm:items-start sm:justify-start"
+                class="mr-10 flex min-w-72 h-full flex-col items-center justify-between gap-4 rounded-md bg-indigo-50 p-4 text-indigo-950 sm:min-w-full sm:flex-row sm:items-start sm:justify-start"
               >
                 <img
                   class="mx-auto size-28 rounded-full object-contain sm:mx-0"
                   src=""
                   alt=""
                 />
-                <div class="flex h-full flex-col justify-between sm:h-auto">
+                <div class="flex  flex-col justify-between sm:h-auto">
+                  <p class="stars text-2xl mb-4"></p>
                   <blockquote class="mb-4 italic">
                     <button
-                      class="cursor-pointer text-pink-600 hover:underline"
+                      class="cursor-pointer text-pink-500 hover:underline"
                     >
                       Leer más
                     </button>
@@ -204,20 +205,21 @@
                     class="inline-flex items-center gap-1 hover:underline"
                     href=""
                   >
-                    <p class="font-bold"></p>
+                    <p class="name font-bold"></p>
                     <img
                       class="w-4"
                       src="./assets/linkedIn-logo.svg"
                       alt="linkedin logo"
                     />
                   </a>
+                  <p class="udemy-name font-bold"></p>
                 </div>
               </li>
             </template>
           </ul>
         </div>
         <div class="mt-4 text-sm">
-          * Las opiniones han sido traducidas al español
+          * Algunas opiniones han sido traducidas del inglés al español
         </div>
       </div>
     </section>
@@ -259,7 +261,7 @@
               crecer.
             </p>
             <img
-              class="mx-auto p-3"
+              class="mx-auto w-full"
               src="./assets/prince-persia.webp"
               alt="imagen del juego prince of persia"
             />
@@ -280,7 +282,7 @@
               llegó mi primer cliente serio.
             </p>
             <img
-              class="mx-auto p-3"
+              class="mx-auto w-full"
               src="./assets/homers-page.gif"
               alt="imagen de la página de homer simpson"
             />
@@ -315,28 +317,48 @@
               te ayuden también a ti a alcanzar tus metas.
             </p>
             <p>Te mando un abrazo y... ¡Sigamos desarrollando!</p>
+            <ul class="flex gap-10">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/marcel-bosch-developer/"
+                >
+                  <img src="./assets/linkedIn-logo.svg" alt="logo de linkedin" />
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/Marshall-Bits">
+                  <img src="./assets/github-logo.svg" alt="logo de github" />
+                </a>
+              </li>
+            </ul>
           </section>
-          <ul class="flex gap-10">
-            <li>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/marcel-bosch-developer/"
-              >
-                <img src="./assets/linkedIn-logo.svg" alt="logo de linkedin" />
-              </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://github.com/Marshall-Bits">
-                <img src="./assets/github-logo.svg" alt="logo de github" />
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </section>
+
+    <footer class="py-10">
+      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
+        <p>
+          Diseño del logo:
+          <a
+            target="_blank"
+            class="text-pink-500 hover:underline"
+            href="https://www.linkedin.com/in/micaelkatzman"
+            s
+            >Micael Katzman</a
+          >
+        </p>
+
+        <p>
+          © <span id="year"></span> Marshall Bits
+        </p>
+      </div>
+    </footer>
     <script src="./scripts/navigation.js"></script>
     <script src="./scripts/typedText.js"></script>
     <script type="module" src="./scripts/templates.js"></script>
     <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/year.js"></script>
   </body>
 </html>
