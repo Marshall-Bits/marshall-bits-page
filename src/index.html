@@ -15,14 +15,26 @@
       content="cursos, programación, online, desarrollo web, videojuegos, javascript, html, css"
     />
     <meta name="author" content="Marcel Bosch" />
-    <meta property="og:title" content="Marshall Bits - Cursos de programación online" />
-    <meta property="og:description" content="Aprende a programar desde cero con cursos online de Marshall Bits. Desarrollo web, videojuegos y más." />
+    <meta
+      property="og:title"
+      content="Marshall Bits - Cursos de programación online"
+    />
+    <meta
+      property="og:description"
+      content="Aprende a programar desde cero con cursos online de Marshall Bits. Desarrollo web, videojuegos y más."
+    />
     <meta property="og:image" content="./assets/logo-2.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://marshall-bits.com" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Marshall Bits - Cursos de programación online" />
-    <meta name="twitter:description" content="Aprende a programar desde cero con cursos online de Marshall Bits. Desarrollo web, videojuegos y más." />
+    <meta
+      name="twitter:title"
+      content="Marshall Bits - Cursos de programación online"
+    />
+    <meta
+      name="twitter:description"
+      content="Aprende a programar desde cero con cursos online de Marshall Bits. Desarrollo web, videojuegos y más."
+    />
     <meta name="twitter:image" content="./assets/logo-2.png" />
   </head>
   <body class="bg-stone-950 text-indigo-50">
@@ -94,23 +106,25 @@
       </nav>
     </header>
 
-    <section id="hero">
+    <section id="hero" class="bg-[url(./assets/bg2.png)] bg-contain bg-center">
       <article
-        class="mx-auto flex flex-col sm:flex-row max-w-72 items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
+        class="mx-auto flex max-w-72 flex-col items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
       >
-          <img
-            class="max-w-52 mx-auto sm:mx-0"
-            src="./assets/logo-1.png"
-            alt="logo Marshall bits"
-          />
-          <div class="mx-auto my-4 flex w-52 flex-col gap-10 sm:text-4xl sm:w-full sm:pl-10">
-            <p class="h-3 font-mono">
-              <span id="typed-text"
-                >Aprende las bases, desarrolla tu futuro</span
-              ><span id="bar">|</span>
-            </p>
-          </div>
-     
+        <h1 class="sm:text-center font-bold text-5xl sm:text-7xl">
+          <span class="sm:text-6xl">Cursos para</span>
+          <br />
+          <span class="bg-gradient-to-r from-[#fe634e] to-[#d01264] text-transparent bg-clip-text">junior developers</span>
+        </h1>
+
+        <div
+          class="mx-auto my-4 flex w-72 sm:w-96 flex-col gap-10  sm:pl-10"
+        >
+          <p class="h-3 font-mono">
+            <span class="font-bold">&gt</span>
+            <span id="typed-text">Aprende las bases, desarrolla tu futuro</span
+            ><span id="bar">|</span>
+          </p>
+        </div>
       </article>
     </section>
 
@@ -247,7 +261,7 @@
 
     <div
       id="modal"
-      class="bg-opacity-50 fixed inset-0 z-50 hidden items-center justify-center bg-black backdrop-blur-sm"
+      class="bg-opacity-50 fixed inset-0 z-50 hidden items-center justify-center bg-stone-950/75 backdrop-blur-sm"
     >
       <div
         class="mav-w-72 h-dvh overflow-scroll rounded-lg bg-slate-50 p-8 text-indigo-950 shadow-lg sm:h-auto sm:max-w-screen-sm sm:overflow-auto lg:max-w-screen-lg"
@@ -362,19 +376,25 @@
     </section>
 
     <footer class="py-10">
-      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
-        <p>
-          Diseño del logo:
-          <a
-            target="_blank"
-            class="text-pink-500 hover:underline"
-            href="https://www.linkedin.com/in/micaelkatzman"
-            s
-            >Micael Katzman</a
-          >
-        </p>
+      <div
+        class="mx-auto flex max-w-72 items-center gap-10 sm:max-w-screen-sm lg:max-w-screen-lg"
+      >
+        <img class="h-10" src="./assets/imago-small.png" alt="MB" />
+        <div>
+          <p>
+            Diseño del logo:
+            <br class="sm:hidden" />
+            <a
+              target="_blank"
+              class="text-pink-500 hover:underline"
+              href="https://www.linkedin.com/in/micaelkatzman"
+              s
+              >Micael Katzman</a
+            >
+          </p>
 
-        <p>© <span id="year"></span> Marshall Bits</p>
+          <p>© <span id="year"></span> Marshall Bits</p>
+        </div>
       </div>
     </footer>
     <script src="./scripts/navigation.js"></script>

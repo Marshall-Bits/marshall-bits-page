@@ -6,7 +6,7 @@ const slogans = [
   "Transforma tus ideas en código, ¡empieza hoy!",
   "Aprende las bases, desarrolla tu futuro",
   "npm install marcel-instructor",
-  "Cursos de programación para juniors",
+  "Consigue tu primer trabajo tech",
 ];
 
 let sloganIndex = 0;
@@ -38,5 +38,5 @@ function type() {
 type();
 
 setInterval(() => {
-  bar.classList.toggle("hidden");
-}, 900);
+  bar.classList.toggle("text-stone-950");
+}, 500);
