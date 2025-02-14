@@ -13,7 +13,7 @@ Siguiendo la filosofía de KIS (Keep It Simple), la página está construida con
 
 ## Uso
 
-Si quieres usar esta página como base para tu propia página web, puedes hacer un fork de este repositorio y modificarlo a tu gusto con tus datos. También te recomiendo que eches un vistazo a mi [curso de Tailwind CSS]("https://www.udemy.com/course/tailwind-desde-cero/?referralCode=E7458FFD1BB54AA9EB3C") para empezar el mismo diseño de cero. 
+Si quieres usar esta página como base para tu propia página web, puedes hacer un fork de este repositorio y modificarlo a tu gusto con tus datos. También te recomiendo que eches un vistazo a mi [curso de Tailwind CSS](https://www.udemy.com/course/tailwind-desde-cero/?referralCode=E7458FFD1BB54AA9EB3C) para empezar el mismo diseño de cero. 
 
 ### Instalación
 
