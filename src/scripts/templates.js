@@ -75,7 +75,9 @@ function openModalWithReview(review) {
   const modalReview = modal.querySelector("blockquote");
   const closeButton = modal.querySelector("button.btn");
 
-  modalImage.src = review.profileImage || "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2";
+  modalImage.src =
+    review.profileImage ||
+    "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2";
   modalImage.alt = review.name;
 
   modalName.textContent = review.name;
@@ -90,12 +92,13 @@ function openModalWithReview(review) {
   };
 
   if (review.stars) {
-    modalImage.remove();
+    modalImage.classList.add("hidden");
   }
 
   document.body.classList.add("overflow-hidden");
 
   closeButton.addEventListener("click", () => {
+    modalImage.classList.remove("hidden");
     closeModal();
   });
 }
