@@ -37,6 +37,19 @@
     />
     <meta name="twitter:image" content="./assets/logo-521.png" />
   </head>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-5Y55VD68JC"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-5Y55VD68JC");
+  </script>
   <body class="bg-stone-950 text-indigo-50">
     <header
       id="header"
@@ -110,15 +123,16 @@
       <article
         class="mx-auto flex max-w-72 flex-col items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
       >
-        <h1 class="sm:text-center font-bold text-5xl sm:text-7xl">
+        <h1 class="text-5xl font-bold sm:text-center sm:text-7xl">
           <span class="sm:text-6xl">Cursos para</span>
           <br />
-          <span class="bg-gradient-to-r from-[#fe634e] to-[#d01264] text-transparent bg-clip-text">junior developers</span>
+          <span
+            class="bg-gradient-to-r from-[#fe634e] to-[#d01264] bg-clip-text text-transparent"
+            >junior developers</span
+          >
         </h1>
 
-        <div
-          class="mx-auto my-4 flex w-72 sm:w-96 flex-col gap-10  sm:pl-10"
-        >
+        <div class="mx-auto my-4 flex w-72 flex-col gap-10 sm:w-96 sm:pl-10">
           <p class="h-3 font-mono">
             <span class="font-bold">&gt</span>
             <span id="typed-text">Aprende las bases, desarrolla tu futuro</span
@@ -174,7 +188,7 @@
         <div class="relative">
           <button
             id="slide-left"
-            class="absolute top-1/2 -left-12 lg:-left-0 xl:-left-12 -translate-y-1/2 cursor-pointer rounded-full bg-pink-500 p-2 text-indigo-50 shadow-md"
+            class="absolute top-1/2 -left-12 -translate-y-1/2 cursor-pointer rounded-full bg-pink-500 p-2 text-indigo-50 shadow-md lg:-left-0 xl:-left-12"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +208,7 @@
           </button>
           <button
             id="slide-right"
-            class="absolute top-1/2 -right-12 lg:right-0 xl:-right-12 -translate-y-1/2 cursor-pointer rounded-full bg-pink-500 p-2 text-indigo-50 shadow-md"
+            class="absolute top-1/2 -right-12 -translate-y-1/2 cursor-pointer rounded-full bg-pink-500 p-2 text-indigo-50 shadow-md lg:right-0 xl:-right-12"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -219,7 +233,7 @@
           >
             <template class="w-full" data-template="review-card">
               <li
-                class="mr-10  flex h-full min-w-72 flex-col items-center justify-between gap-4 rounded-md bg-indigo-50 p-4 lg:px-11 xl:px-4 text-indigo-950 sm:min-w-full sm:flex-row sm:items-start sm:justify-start"
+                class="mr-10 flex h-full min-w-72 flex-col items-center justify-between gap-4 rounded-md bg-indigo-50 p-4 text-indigo-950 sm:min-w-full sm:flex-row sm:items-start sm:justify-start lg:px-11 xl:px-4"
               >
                 <img
                   class="mx-auto size-28 rounded-full object-contain sm:mx-0"
