@@ -1,5 +1,33 @@
 export const reviewsUdemy = [
   {
+    name: "Marta",
+    recommendation: `
+      Increíblemente fácil de entender. Claro y conciso!
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "Karoline",
+    recommendation: `
+      Me ha gustado mucho hasta el momento, me parece que explica bien, va paso a paso y cubriendo todo, eso es muy importante para las personas que estamos desde cero.
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "Mario",
+    recommendation: `
+      Concreto y claro, bien explicado
+      `,
+    stars: "⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "David",
+    recommendation: `
+      Una buena introducción a tailwind, una base para luego profundizar por otro camino.
+      `,
+    stars: "⭐️⭐️⭐️⭐️",
+  },
+  {
     name: "Eric",
     recommendation: `
       Marcel es increíble! Estaba buscando un curso de Tailwind y este me ayudó mucho. Explica en la práctica de una manera muy fácil de entender. ¡Es excelente!
