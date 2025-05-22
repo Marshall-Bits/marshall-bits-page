@@ -1,5 +1,54 @@
 export const reviewsUdemy = [
   {
+    name: "Samir",
+    recommendation: `
+      muy buen curso, me gusto y aprendí lo que necesitaba, gracias
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "Freddy",
+    recommendation: `
+      Excelente explicación de GIT y GITHUB. Muy buen curso.
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "José",
+    recommendation: `
+     excelente
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "Diego",
+    recommendation: `
+     Excelente , en mi caso lo use a modo de repaso y fue muy efectivo, contiene todo lo necesario para volver a la metodologia
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "Pedro",
+    recommendation: `
+     muy claro explicando
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "Diego",
+    recommendation: `
+     muy rapido, muy util, muy concreto :) gracias
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "Dario",
+    recommendation: `
+     Excelente curso! Todo muy claro. Gracias por el aporte.
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
     name: "Marta",
     recommendation: `
       Increíblemente fácil de entender. Claro y conciso!

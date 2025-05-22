@@ -103,17 +103,6 @@ export const reviews = [
   },
   {
     profileImage:
-      "https://media.licdn.com/dms/image/v2/C4D03AQFdKd9PugYqFA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1643972444899?e=1743033600&v=beta&t=FV6gcR_Z8MPQQj2PbBtBXnHPA_oYBFUNemQX3h6Hm8w",
-    name: "Marina",
-    recommendation: `
-      Me emociona recomendar a Marcel como instructor de Desarrollo Web. Habiendo trabajado con él durante más de cinco bootcamps como Program Manager de su equipo, he visto cómo su gran conocimiento de Desarrollo Full Stack y su amor por la enseñanza hacen que los conceptos complejos sean fáciles de entender. Mantiene a los estudiantes entusiasmados y enfocados, y terminan los bootcamps muy bien preparados.\n\nMarcel también hace un trabajo increíble creando un espacio de aprendizaje amigable y seguro. Fomenta el respeto y el trabajo en equipo, asegurándose de que todos se sientan incluidos y apoyados. Es súper accesible y paciente, lo que lo convierte en un mentor fantástico. La combinación de habilidades técnicas y la genuina preocupación de Marcel por sus estudiantes lo convierten en un gran activo para nuestro equipo.
-    `,
-    recommendationEnglish:
-      "I’m excited to recommend Marcel as a Lead Teacher for Web Development. Having worked with him for over five bootcamps as the Program Manager of his team, I’ve seen how his great knowledge of Full Stack Development and love for teaching make complex concepts easy to understand. He keeps students excited and focused, and they finish the bootcamps really well-prepared.\n\nMarcel also does an amazing job creating a friendly and safe learning space. He encourages respect and teamwork, making sure everyone feels included and supported. He’s super approachable and patient, making him a fantastic mentor. Marcel’s mix of tech skills and genuine care for his students makes him a huge asset to our team.",
-    profileUrl: "https://www.linkedin.com/in/marina-cotanda",
-  },
-  {
-    profileImage:
       "https://media.licdn.com/dms/image/v2/D4D03AQFzBaMHyf3liQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1690983095311?e=1743033600&v=beta&t=5ytPWPA_UNMdf_R9wPbtoPOGOvPCceD-SSgAelaMoXA",
     name: "Laia",
     recommendation: `
@@ -189,17 +178,6 @@ export const reviews = [
     recommendationEnglish:
       "Marcel has been the best teacher we could have wished for! His passion, combined with the ability to transfer it to his students, along with dedication and commitment to expanding the content to satisfy our curiosity and interests, has been key to our motivation in class. Devoting his spare time to improving our experiences ... being such a nice and easy-going person both in class and outside are just some of the many things that make Marcel stand out.",
     profileUrl: "https://www.linkedin.com/in/marc-albero",
-  },
-  {
-    profileImage:
-      "https://media.licdn.com/dms/image/v2/D4E35AQEVj0V8tHdlpA/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1702995291493?e=1738324800&v=beta&t=BevGQu8Au6a-a_wBW4IIE2GygZyJHXH0U19SwCX1NAw",
-    name: "Lino",
-    recommendation: `
-      Recomiendo encarecidamente a Marcel como un profesor excepcional basado en mi experiencia en el bootcamp de desarrollo web de Ironhack. Marcel se destaca por su dedicación al éxito del estudiante... Es accesible, nunca se aleja de las preguntas o conflictos de codificación, y posee una notable capacidad para transmitir conceptos complejos de manera accesible.
-    `,
-    recommendationEnglish:
-      "I highly recommend Marcel as an exceptional teacher from my experience in the Ironhack web development bootcamp. Marcel stands out for his dedication to student success ... He is approachable, never shying away from questions or coding conflicts, and possesses a remarkable ability to convey complex concepts in an accessible manner.",
-    profileUrl: "https://www.linkedin.com/in/linozimerman",
   },
   {
     profileImage:
@@ -318,38 +296,5 @@ export const reviews = [
     recommendationEnglish:
       "I have had the pleasure of working closely with Marcel at Ironhack’s bootcamp and can attest to his work ethic and professionalism. He is a natural leader ... He has a talent for making complex concepts accessible to learners of all backgrounds and skill levels. Marcel has been an invaluable asset to our class.",
     profileUrl: "https://www.linkedin.com/in/lorena-benesey-5b038783",
-  },
-  {
-    profileImage:
-      "https://media.licdn.com/dms/image/v2/D4E03AQFfIR4yCSbmCw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1700172861719?e=1743033600&v=beta&t=-eUE4JlYPYlFQlBZ2WMxBm-zMbNhU56HE6HR3XcHzVU",
-    name: "Alejandro",
-    recommendation: `
-      He tenido el placer de tener a Marcel como profesor en el Bootcamp de Frontend de Ironhack.\n\nMarcel es un profesional orientado no solo a ayudar y resolver las dudas de sus estudiantes, sino también a brindarnos las herramientas para convertirnos en mejores profesionales.
-    `,
-    recommendationEnglish:
-      "I have had the pleasure of having Marcel as a Teacher at Ironhack's Frontend Bootcamp.\n\nMarcel is a professional oriented not only to help and solve the doubts of his students but also to give us the tools to become better professionals every time.",
-    profileUrl: "https://www.linkedin.com/in/alejandro-arends",
-  },
-  {
-    profileImage:
-      "https://media.licdn.com/dms/image/v2/D4D03AQGMSQCCInb6Ig/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1725531345992?e=1743033600&v=beta&t=u1Ql-4GuFU8oeeaHuBZqHqgOknCOP3bUGWkNxiSYAoA",
-    name: "Carlos",
-    recommendation: `
-      Fue un verdadero placer tener a Marcel como profesor en el bootcamp de Ironhack. Además de sus conocimientos técnicos... Siempre estuvo atento y dispuesto a ayudar y responder a nuestras preguntas. Gracias Marcel por todo tu apoyo en el emocionante mundo del código.
-    `,
-    recommendationEnglish:
-      "It was a real pleasure having Marcel as a teacher at the Ironhack bootcamp. In addition to his technical knowledge ... He was always attentive and willing to help and answer our questions. ... Thank you Marcel for all your support in the exciting world of code.",
-    profileUrl: "https://www.linkedin.com/in/carlos-erroz-beltran",
-  },
-  {
-    profileImage:
-      "https://media.licdn.com/dms/image/v2/D4D03AQE4UjC_GSzUOw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1708071734564?e=1743033600&v=beta&t=3DZMTRvZcPKJ0VPKKC-96TIum3wqglu12uFpy3qY7Kg",
-    name: "Rafael",
-    recommendation: `
-      Definitivamente Marcel es el tipo de persona que quieres tener en tu equipo. Es talentoso, trabajador y sus habilidades de comunicación están en otro nivel; puede explicar toda la complejidad de un problema con solo unas pocas y exactas palabras. Realmente me encanta su voluntad de ayudar, la energía y las buenas vibras que aporta al equipo.
-    `,
-    recommendationEnglish:
-      "Definitly Marcel is the kind of person that you want to have in your team. He is talented, hardworking, and his communication skills are on another level; he can explain all the complexity of a solution with just the few and exact words. I really love his will to help, the energy and good vibes that he brings to the team.",
-    profileUrl: "https://www.linkedin.com/in/rafael--ortega",
   },
 ];
