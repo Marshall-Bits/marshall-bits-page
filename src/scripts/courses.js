@@ -1,4 +1,4 @@
-const couponCode = "DESCUENTO-ABRIL";
+const couponCode = "DESCUENTO-JUNIO";
 
 export const courses = [
   {
