@@ -1,5 +1,12 @@
 export const reviewsUdemy = [
   {
+    name: "Abel",
+    recommendation: `
+      Muy directo y eficiente, creo que te brinda todas las herramientas para que te adentres en este camino de Git y Git Hub. Totalmente recomendado.
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
     name: "Samir",
     recommendation: `
       muy buen curso, me gusto y aprendí lo que necesitaba, gracias
