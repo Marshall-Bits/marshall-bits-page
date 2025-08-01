@@ -1,4 +1,4 @@
-const couponCode = "JULIO-MARSHALL";
+const couponCode = "DESCUENTO-AGOSTO";
 
 export const courses = [
   {
@@ -7,7 +7,7 @@ export const courses = [
     img: "./assets/curso-tailwind.png",
     link: `https://www.udemy.com/course/tailwind-desde-cero/?referralCode=E7458FFD1BB54AA9EB3C&couponCode=${couponCode}`,
     linkText: "Ver en Udemy",
-    price: "15€",
+    price: "14.99€",
     time: "6h",
   },
   {
