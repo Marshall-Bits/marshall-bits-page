@@ -177,7 +177,7 @@
     --color-pink-200: oklch(0.899 0.061 343.231);
     --color-pink-300: oklch(0.823 0.12 346.018);
     --color-pink-400: oklch(0.718 0.202 349.761);
-    --color-pink-500: oklch(0.656 0.241 354.308);
+    --color-pink-500: #d31166;
     --color-pink-600: oklch(0.592 0.249 0.584);
     --color-pink-700: oklch(0.525 0.223 3.958);
     --color-pink-800: oklch(0.459 0.187 3.815);
@@ -592,10 +592,6 @@
   .inline-flex {
     display: inline-flex;
   }
-  .size-28 {
-    width: calc(var(--spacing) * 28);
-    height: calc(var(--spacing) * 28);
-  }
   .h-2\/5 {
     height: calc(2/5 * 100%);
   }
@@ -765,9 +761,6 @@
   }
   .bg-center {
     background-position: center;
-  }
-  .object-contain {
-    object-fit: contain;
   }
   .object-cover {
     object-fit: cover;

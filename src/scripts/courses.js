@@ -1,13 +1,31 @@
-const couponCode = "DESCUENTO-AGOSTO";
+const couponCode = "DESCUENTO-SEPTIEMBRE";
 
 export const courses = [
+  {
+    title: "Java para juniors",
+    desc: "Conviértete en backend developer. Crea una API REST con Java y Spring Boot.",
+    img: "./assets/curso-java.png",
+    link: `https://www.udemy.com/course/java-para-juniors/?referralCode=F9B28CCC7C04477E3555&couponCode=${couponCode}`,
+    linkText: "Ver en Udemy",
+    price: "12.99€",
+    time: "15h"
+  },
+  {
+    title: "Aprende a programar con Java",
+    desc: "Aprende a programar con uno de los lenguajes más demandados del sector.",
+    img: "./assets/curso-intro-java.png",
+    link: `https://www.udemy.com/course/programar-con-java/?referralCode=F9B28CCC7C04477E3555`,
+    linkText: "Ver en Udemy",
+    price: "Gratis",
+    time: "2h"
+  },
   {
     title: "Tailwind desde cero",
     desc: "Aprende Tailwind CSS desde cero y construye interfaces modernas y responsivas.",
     img: "./assets/curso-tailwind.png",
     link: `https://www.udemy.com/course/tailwind-desde-cero/?referralCode=E7458FFD1BB54AA9EB3C&couponCode=${couponCode}`,
     linkText: "Ver en Udemy",
-    price: "14.99€",
+    price: "12.99€",
     time: "6h",
   },
   {
