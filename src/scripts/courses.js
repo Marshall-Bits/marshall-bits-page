@@ -5,7 +5,7 @@ export const courses = [
     title: "Java para juniors",
     desc: "Conviértete en backend developer. Crea una API REST con Java y Spring Boot.",
     img: "./assets/curso-java.png",
-    link: `https://www.udemy.com/course/java-para-juniors/?referralCode=F9B28CCC7C04477E3555&couponCode=${couponCode}`,
+    link: `https://www.udemy.com/course/java-para-juniors-springboot/?referralCode=F9B28CCC7C04477E3555&couponCode=${couponCode}`,
     linkText: "Ver en Udemy",
     price: "12.99€",
     time: "15h"
