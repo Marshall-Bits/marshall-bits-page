@@ -106,6 +106,7 @@ courses.forEach((course) => {
   const button = card.querySelector("button");
   const time = card.querySelector(".time");
   const price = card.querySelector(".price");
+  const originalPrice = card.querySelector(".original-price");
 
   image.src = course.img;
   image.alt = course.title;
@@ -118,6 +119,12 @@ courses.forEach((course) => {
 
   time.textContent += course.time;
   price.textContent += course.price;
+
+  if (course.originalPrice) {
+    originalPrice.textContent += course.originalPrice;
+  } else {
+    originalPrice.remove();
+  }
 
   coursesUl.appendChild(card);
 });

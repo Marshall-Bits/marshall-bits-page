@@ -149,7 +149,7 @@
           class="mx-auto grid max-w-sm grid-cols-1 gap-10 py-10 md:max-w-7xl md:grid-cols-2 lg:grid-cols-3"
         >
           <template data-template="course-card">
-            <li class="flex h-full flex-col items-center justify-center">
+            <li class="flex h-full flex-col items-center justify-center ">
               <div class="h-full rounded-md bg-stone-950">
                 <img
                   src=""
@@ -161,6 +161,10 @@
                   <div>
                     <span class="time w-16 rounded-sm bg-slate-800/50 px-2 py-1"
                       >⌚
+                    </span>
+                    <span
+                      class="original-price w-16 rounded-sm bg-slate-800/50 px-2 py-1 font-normal text-pink-500 line-through"
+                    >
                     </span>
                     <span
                       class="price w-16 rounded-sm bg-slate-800/50 px-2 py-1 font-bold"
@@ -235,7 +239,6 @@
               <li
                 class="mr-10 flex h-full min-w-72 flex-col items-center justify-between gap-4 rounded-md bg-indigo-50 p-4 text-indigo-950 sm:min-w-full sm:flex-row sm:items-start sm:justify-start lg:px-11 xl:px-4"
               >
-               
                 <div class="flex flex-col justify-between sm:h-auto">
                   <p class="stars mb-4 text-2xl"></p>
                   <blockquote class="mb-4 italic">

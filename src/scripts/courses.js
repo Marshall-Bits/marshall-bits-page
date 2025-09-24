@@ -8,11 +8,12 @@ export const courses = [
     link: `https://www.udemy.com/course/java-para-juniors-springboot/?referralCode=F9B28CCC7C04477E3555&couponCode=${couponCode}`,
     linkText: "Ver en Udemy",
     price: "12.99€",
+    originalPrice: "59.99€",
     time: "15h"
   },
   {
-    title: "Aprende a programar con Java",
-    desc: "Aprende a programar con uno de los lenguajes más demandados del sector.",
+    title: "Aprende a programar",
+    desc: "Aprende a programar con JAVA, uno de los lenguajes más demandados del sector.",
     img: "./assets/curso-intro-java.png",
     link: `https://www.udemy.com/course/programar-con-java/?referralCode=F9B28CCC7C04477E3555`,
     linkText: "Ver en Udemy",
@@ -26,6 +27,7 @@ export const courses = [
     link: `https://www.udemy.com/course/tailwind-desde-cero/?referralCode=E7458FFD1BB54AA9EB3C&couponCode=${couponCode}`,
     linkText: "Ver en Udemy",
     price: "12.99€",
+    originalPrice: "19.99€",
     time: "6h",
   },
   {
