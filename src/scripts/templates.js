@@ -40,12 +40,12 @@ function renderReviews() {
 
     const words = review.recommendation.split(" ");
     const truncatedText =
-      words.length > 50
-        ? words.slice(0, 50).join(" ") + "..."
+      words.length > 30
+        ? words.slice(0, 30).join(" ") + "..."
         : review.recommendation;
     reviewText.insertAdjacentText("afterbegin", truncatedText);
 
-    if (words.length <= 50) {
+    if (words.length <= 30) {
       readMoreButton.remove();
     }
 
