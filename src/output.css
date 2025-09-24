@@ -565,9 +565,6 @@
   .z-50 {
     z-index: 50;
   }
-  .m-1 {
-    margin: calc(var(--spacing) * 1);
-  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -579,9 +576,6 @@
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
-  }
-  .mr-1 {
-    margin-right: calc(var(--spacing) * 1);
   }
   .mr-10 {
     margin-right: calc(var(--spacing) * 10);
@@ -631,8 +625,8 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
-  .h-96 {
-    height: calc(var(--spacing) * 96);
+  .h-72 {
+    height: calc(var(--spacing) * 72);
   }
   .h-auto {
     height: auto;
@@ -643,23 +637,14 @@
   .h-full {
     height: 100%;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
-  .w-2 {
-    width: calc(var(--spacing) * 2);
+  .min-h-72 {
+    min-height: calc(var(--spacing) * 72);
   }
   .w-4 {
     width: calc(var(--spacing) * 4);
   }
   .w-16 {
     width: calc(var(--spacing) * 16);
-  }
-  .w-17 {
-    width: calc(var(--spacing) * 17);
-  }
-  .w-20 {
-    width: calc(var(--spacing) * 20);
   }
   .w-32 {
     width: calc(var(--spacing) * 32);
@@ -827,11 +812,20 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
+  }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
   }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
@@ -894,9 +888,6 @@
   }
   .text-pink-500 {
     color: var(--color-pink-500);
-  }
-  .text-pink-900 {
-    color: var(--color-pink-900);
   }
   .text-stone-950 {
     color: var(--color-stone-950);
@@ -1005,6 +996,11 @@
   .sm\:max-w-screen-sm {
     @media (width >= 40rem) {
       max-width: var(--breakpoint-sm);
+    }
+  }
+  .sm\:min-w-72 {
+    @media (width >= 40rem) {
+      min-width: calc(var(--spacing) * 72);
     }
   }
   .sm\:min-w-full {
@@ -1133,6 +1129,11 @@
   .xl\:px-4 {
     @media (width >= 80rem) {
       padding-inline: calc(var(--spacing) * 4);
+    }
+  }
+  .xl\:px-10 {
+    @media (width >= 80rem) {
+      padding-inline: calc(var(--spacing) * 10);
     }
   }
 }
