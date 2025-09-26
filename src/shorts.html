@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="icon" href="./assets/favico.png" type="image/svg+xml" />
+    <title>Shorts - Marshall Bits</title>
+    <meta
+      name="description"
+      content="Shorts de programación de Marshall Bits - Videos cortos educativos"
+    />
+    <style>
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .video-container {
+        scroll-snap-align: start;
+        height: 100vh;
+        width: 100vw;
+      }
+      .shorts-container {
+        scroll-snap-type: y mandatory;
+        height: 100vh;
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body class="overflow-hidden bg-stone-950 text-indigo-50">
+    <header
+      class="fixed top-0 right-0 left-0 z-50 bg-indigo-950/90 shadow-xl backdrop-blur-sm"
+    >
+      <nav
+        class="relative mx-auto flex h-16 items-center justify-between px-4 sm:max-w-screen-sm sm:px-0 lg:max-w-screen-lg"
+      >
+        <a href="./index.html" class="w-10">
+          <img class="h-10" src="./assets/imago-220.png" alt="Marshall Bits" />
+        </a>
+        <h1 class="text-lg font-bold">Shorts</h1>
+        <a
+          href="./index.html"
+          class="flex w-10 justify-end text-sm transition-colors hover:text-pink-400"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 18L9 12L15 6"
+              stroke="currentColor"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+
+    <div id="shorts-container" class="shorts-container hide-scrollbar">
+      <!-- Los videos se cargarán aquí dinámicamente -->
+    </div>
+
+    <script src="./scripts/shorts.js"></script>
+  </body>
+</html>
