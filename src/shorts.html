@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="icon" href="./assets/favico.png" type="image/svg+xml" />
+    <title>Shorts - Marshall Bits</title>
+    <meta
+      name="description"
+      content="Aprende a programar desde cero con los shorts de Marshall Bits. Contenido corto y directo al grano."
+    />
+    <meta
+      name="keywords"
+      content="shorts, programación, tutoriales, desarrollo web, videojuegos, javascript, html, css"
+    />
+    <meta name="author" content="Marcel Bosch" />
+    <meta property="og:title" content="Shorts - Marshall Bits" />
+    <meta
+      property="og:description"
+      content="Aprende a programar desde cero con los shorts de Marshall Bits."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="./assets/logo-521.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shorts - Marshall Bits" />
+    <meta
+      name="twitter:description"
+      content="Aprende a programar desde cero con los shorts de Marshall Bits."
+    />
+    <meta name="twitter:image" content="./assets/logo-521.png" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5Y55VD68JC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5Y55VD68JC");
+    </script>
+  </head>
+  <body class="bg-stone-950 text-indigo-50">
+    <header
+      id="header"
+      class="sticky top-0 z-40 bg-indigo-950 shadow-xl shadow-black/25"
+    >
+      <nav
+        class="mx-auto flex h-16 items-center justify-between sm:max-w-screen-sm sm:px-0 lg:max-w-screen-lg"
+      >
+        <button id="menu-button" class="absolute left-2 sm:hidden">
+          <svg
+            width="40px"
+            height="40px"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H20M4 12H20M4 18H20"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <a
+          href="./index.html"
+          class="mx-auto h-full cursor-pointer py-4 sm:mx-0 sm:max-w-72"
+        >
+          <img id="main-title" class="h-full" src="./assets/logo-521.png" />
+        </a>
+        <ul
+          id="nav-menu"
+          class="absolute top-0 hidden h-dvh w-dvw flex-col justify-around bg-indigo-950 text-center text-2xl font-bold sm:static sm:flex sm:h-auto sm:w-1/2 sm:flex-row sm:justify-between sm:bg-transparent sm:text-left sm:text-sm"
+        >
+          <li>
+            <a class="link" href="./index.html#courses">Cursos</a>
+          </li>
+          <li>
+            <a class="link" href="./shorts.html">Shorts</a>
+          </li>
+          <li>
+            <a class="link" href="./index.html#reviews">Opiniones</a>
+          </li>
+          <li>
+            <a class="link" href="./index.html#about-me">Sobre mí</a>
+          </li>
+          <li class="sm:hidden">
+            <button>
+              <svg
+                width="50px"
+                height="50px"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="Menu / Close_LG">
+                  <path
+                    id="Vector"
+                    d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="shorts" class="py-16">
+      <div class="mx-auto max-w-72 sm:max-w-screen-sm lg:max-w-screen-lg">
+        <h1 class="mb-8 text-4xl font-bold">Shorts</h1>
+        <p class="mb-8 text-lg">
+          Aprende programación con vídeos de <strong>un minuto</strong>. Truquitos e información rápida que te servirá en tu día a día como developer.
+        </p>
+
+        <ul class="flex flex-col gap-16">
+          <li>
+            <h2 class="mb-4 text-2xl font-bold">Lecciones de Java en un minuto:</h2>
+
+            <div class="relative w-full pb-[56.25%]">
+              <iframe
+                class="absolute top-0 left-0 h-full w-full rounded-lg shadow-xl"
+                src="https://www.youtube.com/embed/videoseries?list=PLDqmMqxbWcAMvqCCBR5sGgOIBj3uU68D_"
+                title="Lecciones de Java en un minuto"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </li>
+          <li>
+            <h2 class="mb-4 text-2xl font-bold">Tips para Junior Devs:</h2>
+
+            <div class="relative w-full pb-[56.25%]">
+              <iframe
+                class="absolute top-0 left-0 h-full w-full rounded-lg shadow-xl"
+                src="https://www.youtube.com/embed/videoseries?list=PLDqmMqxbWcAN136FLxhlaD_ltRU52sktC"
+                title="Marshall Bits Shorts"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="bg-indigo-950 py-10">
+      <div
+        class="mx-auto flex max-w-72 items-center gap-10 sm:max-w-screen-sm lg:max-w-screen-lg"
+      >
+        <img class="h-10" src="./assets/imago-220.png" alt="MB" />
+        <div>
+          <p>
+            Diseño del logo:
+            <br class="sm:hidden" />
+            <a
+              target="_blank"
+              class="text-pink-500 hover:underline"
+              href="https://www.linkedin.com/in/micaelkatzman"
+              >Micael Katzman</a
+            >
+          </p>
+
+          <p>© <span id="year"></span> Marshall Bits</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/navigation.js"></script>
+    <script src="./scripts/year.js"></script>
+  </body>
+</html>

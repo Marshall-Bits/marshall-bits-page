@@ -12,15 +12,6 @@ export const courses = [
     time: "15h"
   },
   {
-    title: "Aprende a programar",
-    desc: "Aprende a programar con JAVA, uno de los lenguajes más demandados del sector.",
-    img: "./assets/curso-intro-java.png",
-    link: `https://www.udemy.com/course/programar-con-java/?referralCode=F9B28CCC7C04477E3555`,
-    linkText: "Ver en Udemy",
-    price: "Gratis",
-    time: "2h"
-  },
-  {
     title: "Tailwind desde cero",
     desc: "Aprende Tailwind CSS desde cero y construye interfaces modernas y responsivas.",
     img: "./assets/curso-tailwind.png",
@@ -29,6 +20,15 @@ export const courses = [
     price: "12.99€",
     originalPrice: "19.99€",
     time: "6h",
+  },
+  {
+    title: "Aprende a programar",
+    desc: "Aprende a programar con JAVA, uno de los lenguajes más demandados del sector.",
+    img: "./assets/curso-intro-java.png",
+    link: `https://www.udemy.com/course/programar-con-java/?referralCode=F9B28CCC7C04477E3555`,
+    linkText: "Ver en Udemy",
+    price: "Gratis",
+    time: "2h"
   },
   {
     title: "Git desde cero",
