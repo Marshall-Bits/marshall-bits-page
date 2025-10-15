@@ -97,7 +97,9 @@
             <a class="link" href="#about-me">Sobre mí</a>
           </li>
           <li>
-            <a class="link" href="https://discord.gg/BeVaH2ButW" target="_blank">Discord</a>
+            <a class="link" href="https://discord.gg/BeVaH2ButW" target="_blank"
+              >Discord</a
+            >
           </li>
           <li class="sm:hidden">
             <button>
@@ -127,7 +129,7 @@
 
     <section id="hero" class="bg-[url(./assets/bg.png)] bg-contain bg-center">
       <article
-        class="mx-auto flex max-w-72 flex-col items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
+        class="relative mx-auto flex max-w-72 flex-col items-center justify-between py-16 sm:max-w-screen-sm lg:max-w-screen-lg"
       >
         <h1 class="text-5xl font-bold sm:text-center sm:text-7xl">
           <span class="sm:text-6xl">Cursos para</span>
@@ -156,7 +158,9 @@
         >
           <template data-template="course-card">
             <li class="flex h-full flex-col items-center justify-center">
-              <div class="h-full rounded-md bg-stone-950 border-2 border-stone-950">
+              <div
+                class="h-full rounded-md border-2 border-stone-950 bg-stone-950"
+              >
                 <img
                   src=""
                   alt=""
@@ -366,7 +370,7 @@
               te ayuden también a ti a alcanzar tus metas.
             </p>
             <p>Te mando un abrazo y... ¡Sigamos desarrollando! 🫂</p>
-            <ul class="flex gap-10">
+            <ul class="flex gap-10 items-center">
               <li>
                 <a
                   target="_blank"
@@ -375,12 +379,23 @@
                   <img
                     src="./assets/linkedIn-logo.svg"
                     alt="logo de linkedin"
+                    class="hover:scale-125 transition-transform"
                   />
                 </a>
               </li>
               <li>
                 <a target="_blank" href="https://github.com/Marshall-Bits">
-                  <img src="./assets/github-logo.svg" alt="logo de github" />
+                  <img src="./assets/github-logo.svg" class="hover:scale-125 transition-transform" alt="logo de github" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/@marshall-bits"
+                  target="_blank"
+                  rel="noreferrer"
+                 
+                >
+                  <img src="./assets/youtube-logo.svg"  class="h-14 w-14 hover:scale-125 transition-transform" alt="logo de youtube" />
                 </a>
               </li>
             </ul>

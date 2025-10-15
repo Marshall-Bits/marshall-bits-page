@@ -18,7 +18,7 @@ export const courses = [
     link: `https://www.udemy.com/course/tailwind-desde-cero/?referralCode=E7458FFD1BB54AA9EB3C&couponCode=${couponCode}`,
     linkText: "Ver en Udemy",
     price: "12.99€",
-    originalPrice: "19.99€",
+    originalPrice: "49.99€",
     time: "6h",
   },
   {
