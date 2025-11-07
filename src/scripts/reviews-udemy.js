@@ -1,5 +1,19 @@
 export const reviewsUdemy = [
   {
+    name: "Juan",
+    recommendation: `
+      Excelente curso lo recomiendo para todo aquel que quiera comenzar en mundo de BE con APIS Rest
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
+    name: "José Miguel",
+    recommendation: `
+      Me ha gustado mucho el curso, no es muy largo, todo esta muy bien explicado y puedes probar lo aprendido en los retos! Lo recomendare, Muchas gracias!
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
     name: "Abel",
     recommendation: `
       Muy directo y eficiente, creo que te brinda todas las herramientas para que te adentres en este camino de Git y Git Hub. Totalmente recomendado.
