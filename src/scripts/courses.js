@@ -2,6 +2,15 @@ const couponCode = "NOVEMBER";
 
 export const courses = [
   {
+    title: "MongoDB desde cero",
+    desc: "Aprende a usar MongoDB con NodeJS y gestiona tus bases de datos con JavaScript",
+    img: "./assets/curso-mongoDB.png",
+    link: "https://www.youtube.com/playlist?list=PLDqmMqxbWcAOqq3ZcfyyKRcNQIx7FSrHD",
+    linkText: "Ver en Youtube",
+    price: "Gratis",
+    time: "1,5h",
+  },
+  {
     title: "Java para juniors",
     desc: "Conviértete en backend developer. Crea una API REST con Java y Spring Boot.",
     img: "./assets/curso-java.png",
