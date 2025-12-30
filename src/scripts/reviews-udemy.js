@@ -1,5 +1,12 @@
 export const reviewsUdemy = [
   {
+    name: "Rodrigo",
+    recommendation: `
+      Muy agradable y entendible, de lo mejor que me encontrado en Udemy
+      `,
+    stars: "⭐️⭐️⭐️⭐️⭐️",
+  },
+  {
     name: "Juan",
     recommendation: `
       Excelente curso lo recomiendo para todo aquel que quiera comenzar en mundo de BE con APIS Rest
