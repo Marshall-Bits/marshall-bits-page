@@ -1,4 +1,4 @@
-const couponCode = "DICIEMBRE-2025";
+const couponCode = "DESCUENTO-ENERO";
 
 export const courses = [
   {
