@@ -13,7 +13,7 @@ export const courses = [
   },
   {
     title: "MongoDB desde cero",
-    desc: "Aprende a usar MongoDB con NodeJS y gestiona tus bases de datos con JavaScript",
+    desc: "Aprende a usar MongoDB con NodeJS y gestiona tus bases de datos con JavaScript.",
     img: "./assets/curso-mongoDB.png",
     link: "https://www.youtube.com/playlist?list=PLDqmMqxbWcAOqq3ZcfyyKRcNQIx7FSrHD",
     linkText: "Ver en Youtube",
