@@ -2,6 +2,16 @@ const couponCode = "DESCUENTO-ENERO-2026";
 
 export const courses = [
   {
+    title: "MCP servers",
+    desc: "Crea servidores MCP para ampliar las capacidades de tu agente de IA usando TypeScript y NodeJS.",
+    img: "./assets/curso-MCP.png",
+    link: `https://www.udemy.com/course/mcp-servers-con-typescript-y-nodejs?couponCode=${couponCode}`,
+    linkText: "Ver en Udemy",
+    price: "12.99€",
+    originalPrice: "19.99€",
+    time: "2h",
+  },
+  {
     title: "MongoDB desde cero",
     desc: "Aprende a usar MongoDB con NodeJS y gestiona tus bases de datos con JavaScript",
     img: "./assets/curso-mongoDB.png",
