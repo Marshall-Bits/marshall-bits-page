@@ -438,10 +438,32 @@
         </div>
       </div>
     </footer>
+    <!-- Cookie Consent Banner -->
+    <div
+      id="cookie-banner"
+      style="display:none"
+      class="fixed bottom-0 left-0 right-0 z-50 bg-indigo-950 border-t border-indigo-800 shadow-2xl shadow-black/50 px-4 py-5 sm:px-8"
+    >
+      <div class="mx-auto max-w-screen-lg flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div class="flex-1">
+          <p class="font-bold text-indigo-50 mb-1">🍪 Este sitio usa cookies</p>
+          <p class="text-sm text-indigo-200">
+            Utilizamos <span class="font-semibold text-indigo-50">Google Analytics</span> para analizar el tráfico y mejorar la experiencia del sitio. Estas cookies recopilan datos de uso de forma anónima (páginas visitadas, tiempo en el sitio, etc.). No se usan cookies de publicidad ni se comparten datos personales con terceros.
+          </p>
+        </div>
+        <div class="flex shrink-0 sm:ml-8">
+          <button id="cookie-accept" class="btn">
+            Aceptar
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="./scripts/navigation.js"></script>
     <script src="./scripts/typedText.js"></script> 
     <script type="module" src="./scripts/templates.js"></script>
     <script src="./scripts/carousel.js"></script>
     <script src="./scripts/year.js"></script>
+    <script src="./scripts/consent.js"></script>
   </body>
 </html>
