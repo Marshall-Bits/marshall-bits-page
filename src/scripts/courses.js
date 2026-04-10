@@ -1,4 +1,4 @@
-const couponCode = "DESCUENTO-MAR";
+const couponCode = "DESCUENTO-ABR";
 
 export const courses = [
   {
@@ -7,7 +7,7 @@ export const courses = [
     img: "./assets/curso-MCP.png",
     link: `https://www.udemy.com/course/mcp-servers-con-typescript-y-nodejs?couponCode=${couponCode}`,
     linkText: "Ver en Udemy",
-    price: "12.99€",
+    price: "9.99€",
     originalPrice: "19.99€",
     time: "2h",
   },
